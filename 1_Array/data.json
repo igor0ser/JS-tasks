@@ -1,0 +1,54 @@
+[
+  {
+    "bonusName": "bonus 1",
+    "bonusDescription": "Description 1",
+    "playersCount": 98,
+    "bonusActive": "Yes",
+    "bonusDraft": "No",
+    "dateStart": "2017/01/10",
+    "dateEnd": "2017/02/10",
+    "wager": "wager 1",
+    "game": "game 1",
+    "country": "country 1",
+    "currency": "UAH"
+  },
+  {
+    "bonusName": "some bonus",
+    "bonusDescription": "Description 2",
+    "playersCount": 30,
+    "bonusActive": "Yes",
+    "bonusDraft": "No",
+    "dateStart": "2017/01/11",
+    "dateEnd": "2017/02/11",
+    "wager": "wager 2",
+    "game": "game 2",
+    "country": "country 2",
+    "currency": "UAH"
+  },
+  {
+    "bonusName": "bonus 3",
+    "bonusDescription": "Description 3",
+    "playersCount": 72,
+    "bonusActive": "No",
+    "bonusDraft": "Yes",
+    "dateStart": "2016/01/10",
+    "dateEnd": "2017/04/10",
+    "wager": "wager 2",
+    "game": "game 1",
+    "country": "country 3",
+    "currency": "USD"
+  },
+  {
+    "bonusName": "current",
+    "bonusDescription": "Description 1",
+    "playersCount": 108,
+    "bonusActive": "No",
+    "bonusDraft": "No",
+    "dateStart": "2016/02/13",
+    "dateEnd": "2017/04/10",
+    "wager": "wager 4",
+    "game": "game 4",
+    "country": "ukraine",
+    "currency": "UAH"
+  }
+]
