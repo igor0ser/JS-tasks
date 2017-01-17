@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>study</title>
+  <style>
+    body{
+      font-family: Calibri;
+    }
+    code{
+        font-weight: bold;
+        font-size: 125%;
+        margin-bottom: 13px;
+        display: block;
+    }
+  </style>
+</head>
+<body>
+  <h3>Задачи</h3>
+  <ol>
+    <li>Получить массив данных из data.json с помощью AJAX запроса</li>
+    <li>Создать функцию которая возвращает массив строк bonusDescription</li>
+    <code>getBonusDescription(data) => 'Description 1, Description 2, Description 3, Description 4'</code>
+    <li>Создать функцию которая принимает ключ (key) и возвращает массив состоящий состоящий из значений найденных по этому ключу в массиве объектов</li>
+    <code>getValuesByKey(data, 'bonusDescription') => 'Description 1, Description 2, Description 3, Description 4'</code>
+    <li>Создать функцию которая возвращает строку состаящую из всех bonusName (через запятую)</li>
+    <code>getBonusNames(data) => 'bonus 1, bonus 2, bonus 3, bonus 4'</code>
+    <li>Создать функцию которая возвращает строку состаящую из всех bonusName (через запятую) тех объектов у которых bonusActive = true</li>
+    <code>getBonusNames(data) => 'bonus 1, bonus 2'</code>
+    <li>Создать функцию которая возвращает массив состоящий из всех строк wager (через запятую) тех объектов у которых playersCount больше 100</li>
+    <code>getSorWagerMoreThen100(data) => ['wager 1', 'wager 4']</code>
+    <li>Создать функцию которая возвращает массив состоящий из всех строк wager (через запятую) тех объектов у которых playersCount больше 100 и отсортированный по playersCount от большего к меньшему</li>
+    <code>getSortedWagerMoreThen100(data) => ['wager 4', 'wager 1']</code>
+    <li>Создать функцию которая возвращает массив состоящий из всех строк wager (через запятую) тех объектов у которых playersCount больше 100</li>
+    <code>getSortedWagerMoreThen100(data) => ['wager 4']</code>
+
+
+  </ol>
+  <h3>Ссылки:</h3>
+  <ol>
+    <li>
+      <a href="http://learn.javascript.ru/array-iteration">
+        Массив: перебирающие методы
+      </a>
+    </li>
+    <li>
+      <a href="http://learn.javascript.ru/array-methods#сортировка-метод-sort-fn">
+        Сортировка
+      </a>
+    </li>
+  </ol>
+  <script src="jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
